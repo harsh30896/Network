@@ -21,7 +21,6 @@ public class Post_like {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Long like_id;
-
     private Long post_id; // (FK->Post.post_id)
     private Long user_id; // (FK->User.user_id)
     private Date created_at;
